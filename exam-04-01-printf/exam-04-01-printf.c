@@ -1,0 +1,60 @@
+/*
+printf() 함수
+	콘솔 화면에 문자열 출력 함수
+
+	제어 문자
+		\t 탭(tab)
+		\n 줄 바꿈(enter)
+		\b 한 칸 왼쪽으로 이동
+		\r 맨 앞으로 이동
+		\a 경고음
+		\' 작은 따옴표
+		\" 큰 따옴표
+		\? 물음표
+		\\ 백슬래시
+
+	형식 문자
+		%d : 부호있는 10진수
+		%u : 부호없는 10진수
+		%o : 부호없는 8친수
+		%x : 부호있는 16진수
+		%f : 10진수 방식의 부도소수점 실수
+		%e : 지수 방식의 부동소수점 실수
+		%g : 값에 따라 %f와 %e 중 선택
+		%c : 값에 대응하는 문자
+		%s : 문자열
+		%p : 포인터 주소값
+		%% : %를 출력 문자로
+*/
+
+#include <stdio.h>
+int main() {
+	printf("I Love C language!\n");
+	printf("It is so funny!\n");
+
+	printf("\" I am a boy. \"\n");
+	printf("I am a \'boy.\' \n");
+	printf("I\t am\t a \tboy. \n");
+	printf("I \bam a boy. \n");
+	printf("I am a boy.\\\?\n");
+
+	char character = 'X';
+	int inumber = 92;
+	double dnumber = 20.201005;
+	printf("%c\n", character);
+	printf("%d\n", character);
+	printf("%d\n", inumber);
+	printf("%x\n", inumber);
+	printf("%o\n", inumber);
+	printf("%f\n", dnumber);
+	printf("%e\n", dnumber);
+
+	char character2 = 'H';
+	int num = 548;
+	float fnum = 1234567;
+	printf("%10f\n", character2);
+	printf("%-10f\n", character2);
+	printf("%10.3f\n", num);
+	printf("%-10.3f\n", num);
+
+}
