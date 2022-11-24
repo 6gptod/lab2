@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{aa291251-e37b-411f-b2e8-76267e3519d9}</ProjectGuid>
-    <RootNamespace>exam1102arrayPointer2</RootNamespace>
+    <ProjectGuid>{17ee876e-2281-46f8-8238-1e81a26f4a66}</ProjectGuid>
+    <RootNamespace>exam1302charfunction</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="exam-11-02-arrayPointer2.c" />
+    <ClCompile Include="exam-13-02-char-function.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
